@@ -2,7 +2,15 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
--
+my_songs = {
+"Go Go GO" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/adigitalnative/jukebox-cli-dc-web-091718/jukebox-cli/audio/Emerald-Park/07.mp3'
+}
 
 def help
   #this method should be the same as in jukebox.rb
