@@ -1,3 +1,5 @@
+# Did not do advanced portion because I'm running this in the online IDE and I don't want to fuss with seeing if the file is acutally playing, since there don't seem to be 
+
 #Here is the song hash you will be working with. Each key is a song name and each value is the location of it's mp3 file.
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
@@ -25,7 +27,7 @@ end
 def list(my_songs)
   songs = []
   
-  my_songs.keys.each do |song|
+  my_songs.keys.each do |song, filename|
     puts "#{}"
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
