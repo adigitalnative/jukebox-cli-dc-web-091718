@@ -25,7 +25,8 @@ end
 def list(my_songs)
   songs = []
   
-  my_songs.keys
+  my_songs.keys.each do |song|
+    puts "#{}"
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
 end
